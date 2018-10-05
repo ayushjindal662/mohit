@@ -1173,6 +1173,7 @@ class CarsSpecs
 		String[] text ={"text"};
 		CarsDekho c ;
 		Scanner sc = new Scanner(System.in);
+        //cars brand
 		System.out.println("\n\n\n\t\t\t\t\t\t*******WELCOME TO CARDEKHO.COM*******\t\t\t\t\t\t\n\n\n");
 		System.out.println("\n \t\t\t\t\t****Select the Car brand by entering index number(1-40)****\t\t\t\t\n \n\n");
 		System.out.println("\t\t1. Audi\t\t\t\t2. Hyundai\t\t\t3. Maruti Suzuki\t\t4. Honda\n"); 
@@ -1981,7 +1982,5 @@ class CarsSpecs
 			System.out.println(" \n \n Thanks for using our services!!!\n BYE!!!\n\n");
 			System.exit(0);
 		}
-			
-	}
-}
+	
 
